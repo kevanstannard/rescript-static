@@ -27,7 +27,7 @@ date: 2020-12-17 06:09:24
 
 Pages are written using Markdown in `/content/pages`.
 
-Pages must have front matter with a `title`.
+Pages must have front matter with a `title`:
 
 ```
 ---
@@ -35,7 +35,7 @@ title: My page
 ---
 ```
 
-Generated file names use the same name as the markdown file, however you can control the generated output with an `id` front matter entry.
+Generated file names use the same name as the markdown file, however you can control the generated file name with an `id` front matter entry:
 
 ```
 ---
@@ -58,11 +58,23 @@ Note that the default configuration uses one directory for all output files. You
 
 ## Development
 
+### Templates
+
 Templates are in `/src/templates`.
+
+Templates are written in React.
+
+### CSS and images
 
 CSS and images can be placed in `/static`.
 
-Main application is in `/src/App.res`.
+They will be copied to `/static` in the output directory.
+
+### Main application
+
+The main application is in `/src/App.res`.
+
+### ReScript
 
 To watch for ReScript changes:
 
