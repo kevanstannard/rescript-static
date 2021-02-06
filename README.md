@@ -2,6 +2,8 @@
 
 A simple ReScript static site generator.
 
+View the [example site](https://kevanstannard.github.io/rescript-static/).
+
 ## Writing content
 
 Start the development server:
