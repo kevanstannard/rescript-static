@@ -17,6 +17,6 @@ const options = {
   notify: false, // Don't show browser sync notifications in the browser
 };
 
-const server = browserSync.create("rescript-blog");
+const server = browserSync.create("rescript-static");
 
 server.init(options);
