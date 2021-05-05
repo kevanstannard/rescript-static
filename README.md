@@ -12,6 +12,10 @@ Start the development server:
 npm run dev
 ```
 
+Then open your browser:
+
+http://localhost:3000/
+
 ### Blog posts
 
 Blog posts are written using Markdown in `/content/posts`.
@@ -45,6 +49,16 @@ id: index
 title: My page
 ---
 ```
+
+### Code blocks
+
+Code blocks can be written using triple back ticks.
+
+````
+```res
+let x = "Hello world"
+```
+````
 
 ### Images
 

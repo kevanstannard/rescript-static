@@ -2,10 +2,10 @@ const hljs = require("highlight.js");
 
 const md = require("markdown-it")({
   linkify: true,
-  highlight: function (str, lang) {
-    if (lang && hljs.getLanguage(lang)) {
+  highlight: function (code, language) {
+    if (language && hljs.getLanguage(language)) {
       try {
-        return hljs.highlight(lang, str).value;
+        return hljs.highlight(code, { language }).value;
       } catch (__) {}
     }
     return "";
