@@ -9,7 +9,7 @@ View the [example site](https://kevanstannard.github.io/rescript-static/).
 Start the development server:
 
 ```
-npm run dev
+npm run start
 ```
 
 Then open your browser:
@@ -25,7 +25,7 @@ Blog posts must have the following front matter:
 ```
 ---
 title: My blog post
-date: 2020-12-17 06:09:24
+date: 2021-07-17 06:09:24
 ---
 ```
 
@@ -95,5 +95,5 @@ The main application is in `/src/App.res`.
 To watch for ReScript changes:
 
 ```
-npm run re:watch
+npm run res:watch
 ```
