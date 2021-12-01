@@ -2,12 +2,12 @@
 'use strict';
 
 var React = require("react");
-var Template__Html$RescriptStatic = require("./Template__Html.bs.js");
+var Template__Html = require("./Template__Html.bs.js");
 
 function Template__Page(Props) {
   var page = Props.page;
   var title = page.title;
-  return React.createElement(Template__Html$RescriptStatic.make, {
+  return React.createElement(Template__Html.make, {
               title: title,
               children: null
             }, React.createElement("p", undefined, React.createElement("a", {
