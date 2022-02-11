@@ -62,9 +62,16 @@ let x = "Hello world"
 
 ### Images
 
-Images may be placed in `/static`.
+Images should be be placed in `/static/images`.
 
-They will be copied to `/static` in the output directory.
+They will be copied to `/static/images` in the output directory.
+
+You can refer to them in content pages with:
+
+```
+![My Image](static/images/my-image.jpg)
+```
+
 
 ### Generated site
 
