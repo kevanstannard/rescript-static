@@ -10,4 +10,5 @@ And some example code:
 ```res
 let x = "Hello world"
 ```
+
 ![Impermanence](static/images/impermanence.jpg)
